@@ -144,3 +144,15 @@ Before you submit your solution, you need to save your progress with git.
   * For additional information on submitting assignments in CodeGrade: [Getting Started in Canvas](https://help.codegrade.com/for-students/getting-started/getting-started-in-canvas)
 
 
+
+## Music Library: Song class
+
+`Song(name, artist, genre)` tracks library-wide stats using class attributes:
+
+- `count`: total songs created
+- `genres` / `artists`: unique lists
+- `genre_count` / `artists_count`: songs per genre / artist
+
+Class methods run automatically when a song is created. Run the tests with `pytest`.
+
+![Tests passing](screenshot.png)
